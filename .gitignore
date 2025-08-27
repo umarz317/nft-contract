@@ -1,0 +1,38 @@
+# Solidity/Foundry
+*.sol~
+*.swp
+*.swo
+
+# Build artifacts
+/build/
+/dist/
+/out/
+/cache/
+
+# Dependencies
+node_modules/
+lib/
+!lib/forge-std/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+
+# Foundry
+cache_forge/
+broadcast/
